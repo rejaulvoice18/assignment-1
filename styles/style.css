@@ -223,11 +223,12 @@ section{
 .support-title-color{
     color: #FFFFFF;
 }
+/*Footer styles*/
 .footer-section{
     margin-left:148px;
     margin-right: 152px;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     padding:30px 0px;
 }
 footer{
@@ -241,6 +242,4 @@ footer{
 .social-button a{
     display: inline-block;
     padding: 0px 60px;
-    width: 36px;
-    height: 36px;
 }

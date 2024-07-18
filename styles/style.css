@@ -199,10 +199,8 @@ section{
     height: 313px;
     margin-left: 148px;
     margin-right: 152px;
-    background-image: url("/assets/handshake.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: black;
+    
     padding: 65px 48px;
     border-radius: 16px;
 }
@@ -221,9 +219,7 @@ section{
     background-color:white;
     padding: 10px 20px;
 }
-.support-form{
-   
-}
+
 .support-title-color{
     color: #FFFFFF;
 }

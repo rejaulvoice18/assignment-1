@@ -55,6 +55,10 @@ section{
 .banner{
     background-image: url("/assets/Hero-bg.png");
 }
+.btn-banner a{
+    text-decoration:none;
+    color: white;
+}
 .banner-content{
     margin: 0px 221px;
     text-align: center;
@@ -156,6 +160,7 @@ section{
 .skill-title{
     font-size: 24px;
     font-weight: 800;
+    line-height: 26px;
    
 }
 /*Next Skill styles*/
@@ -188,4 +193,58 @@ section{
 .next-skill a{
     font-size: 16px;
     font-weight: 800;
+}
+/*Support styles*/
+.support{
+    height: 313px;
+    margin-left: 148px;
+    margin-right: 152px;
+    background-image: url("/assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 65px 48px;
+    border-radius: 16px;
+}
+.support input[type="text"]{
+    height: 57px;
+    width: 548px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px 20px;
+    
+}
+.support input[type="submit"]{
+    border-radius:8px;
+    width:120px;
+    height: 57px;
+    background-color:white;
+    padding: 10px 20px;
+}
+.support-form{
+   
+}
+.support-title-color{
+    color: #FFFFFF;
+}
+.footer-section{
+    margin-left:148px;
+    margin-right: 152px;
+    display:flex;
+    justify-content:space-between;
+    padding:30px 0px;
+}
+footer{
+    background-color: rgba(13,19,33,0.03);
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1321;
+}
+.social-button a{
+    display: inline-block;
+    padding: 0px 60px;
+    width: 36px;
+    height: 36px;
 }

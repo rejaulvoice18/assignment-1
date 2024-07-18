@@ -1,0 +1,191 @@
+/*shared styles*/
+*{
+    box-sizing: border-box;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 800px;
+    color: #0D1321;
+}
+.section-description{
+    font-size: 16px;
+    color: #0D1321;
+    line-height: 26px;
+}
+.section-gap{
+    margin-top:151px;
+}
+.align-center{
+    text-align:center;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+section{
+    margin: 50px 0px;
+}
+/*google fonts*/
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.azeret-mono-assignment {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+}
+
+/*Header styles*/
+.menu{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.menu .logo{
+    font-size: 28px;
+    color: #0D1321;
+    font-weight: 800;
+}
+.btn-download{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 30px;
+    border-radius: 8px;
+    color: #0D1321;
+}
+/*banner styles*/
+.banner{
+    background-image: url("/assets/Hero-bg.png");
+}
+.banner-content{
+    margin: 0px 221px;
+    text-align: center;
+    padding: 26px 0px 45px 0px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    line-height: 68px;
+}
+.banner-description{
+    font-size: 16px;
+    color:#0D1321;
+    line-height: 26px;
+}
+.btn-banner{
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+/*Web dev styles*/
+
+.web-development{
+    margin-right: 152px;
+    margin-left: 148px;
+    background-color: #FAFAFB;
+    padding: 80px 97px;
+}
+.web-items{
+    display:flex;
+    padding: 48px;
+    justify-content: space-between;
+}
+.double-gradient{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,255,255,1));
+}
+.single-gradient{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,1));
+}
+.item-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321;
+}
+.item-description{
+    font-size: 16px;
+    color:#0D1321;
+    line-height: 26px;
+}
+.item-btn{
+    font-size: 20px;
+    font-weight:700;
+    color: 0D1321;
+    padding: 10px;
+}
+
+/*Inspiration Styles*/
+.inspiration{
+    margin-left: 148px; 
+    margin-right: 152px;
+}
+.inspiration-video{
+    border: 1px solid gray;
+    border-radius: 16px;
+}
+.inspiration-video iframe{
+    width: 100%;
+    border-radius: 16px;
+    padding: 40px;
+}
+/*Current styles*/
+.current-target{
+    margin-left: 148px; 
+    margin-right: 152px;
+}
+.current-skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap:24px;
+
+}
+.current-skill{
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-one-bg{
+    background-color: rgba(255,76,30,0.05);
+}
+.skill-two-bg{
+    background-color: rgba(0,76,232,0.05)
+}
+.skill-three-bg{
+    background-color: rgba(255,223,0,0.05)
+}
+.skill-title{
+    font-size: 24px;
+    font-weight: 800;
+   
+}
+/*Next Skill styles*/
+.next-target{
+    margin-left: 148px;
+    margin-right: 152px;
+}
+.next-skill-outer{
+    border: 1px solid rgba(13,19,33,0.15);
+    border-radius: 16px;
+    margin-top:20px;
+}
+.next-skills-container{
+    display: flex;
+    padding: 20px;
+    
+}
+.next-skill-image{
+    padding:20px;
+}
+.next-skill-title{
+    font-size: 24px;
+    font-weight: 800px;
+}
+.next-skill-description{
+    color: #0D1321;
+    font-size: 16px;
+    line-height: 26px;
+}
+.next-skill a{
+    font-size: 16px;
+    font-weight: 800;
+}

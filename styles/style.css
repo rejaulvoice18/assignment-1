@@ -51,7 +51,7 @@ section{
 }
 /*banner styles*/
 .banner{
-    background-image: url("./assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
 }
 .btn-banner a{
     text-decoration:none;
@@ -198,7 +198,7 @@ section{
     margin-left: 148px;
     margin-right: 152px;
     background-color: black;
-    background-image: url("");
+    background-image: url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

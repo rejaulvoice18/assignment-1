@@ -51,7 +51,7 @@ section{
 }
 /*banner styles*/
 .banner{
-    background-image: url("assets/Hero-bg.png");
+    background-image: url("./assets/Hero-bg.png");
 }
 .btn-banner a{
     text-decoration:none;
